@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration form</title>
+    <style>
+      nav {
+        background-color: rgb(147, 131, 185);
+        margin: 0px;
+        border: 0px;
+        padding: 20px;
+        color: rgb(1, 5, 7);
+        font-size: x-large;
+      }
+      body {
+        margin: 0%;
+        background-image: url(https://wallpaperaccess.com/full/303578.jpg);
+      }
+      button {
+        margin-left: 800px;
+
+      }
+      #b2{
+          padding 8px;
+              }
+              main{
+
+                  border: 1px solid black;
+                  margin: 100px auto;
+                  height: 1000px;
+                  width: 800px;
+                  background-color: rgb(238, 227, 227);
+
+
+                }
+                div{
+                  margin-left: 10px;
+                }
+                input{
+                  padding: 8px;
+                }
+                #submit{
+                  margin-left: 10px;
+                }
+                h2{text-align: center;}
+                #login {
+                  margin-left: 15px;
+                }
+    </style>
+  </head>
+  <body>
+    <form>
+      <nav>
+        <b><i>Geekster registration form</i></b>
+        <p>
+          Already registered <a href="login form2.html" id="login">Login</a>
+        </p>
+      </nav>
+      <main>
+        <h2>Registration form</h2>
+        <div>
+          <label for="username"><b>First name</b> </label><br />
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Enter First name"
+            size="100"
+            required
+          />
+        </div>
+
+        <br />
+        <div>
+          <label><b>Last name/Surname</b> </label><br />
+          <input type="text" placeholder="Enter Last name" size="100" />
+        </div>
+        <br />
+        <div>
+          <label><b>Email </b> </label><br />
+          <input type="text" placeholder="Enter your email" size="90" />
+          <input type="button" value="confirm" />
+        </div>
+        <br />
+        <div>
+          <label
+            ><b
+              >Verify your email address OTP sent to your email address
+            </b> </label
+          ><br />
+          <input
+            type="text"
+            size="6"
+            maxlength="6"
+            minlength="6"
+            placeholder="OTP"
+          />
+          <input type="button" value="verify" />
+        </div>
+        <br />
+        <div>
+          <label><b>Mobile </b> </label>
+          <input type="number" placeholder="Enter your mobile" size="100" />
+          <input type="button" value="confirm" />
+        </div>
+        <div>
+          <br />
+          <label
+            ><b
+              >Verify your mobile number OTP sent to your mobile number
+            </b> </label
+          ><br />
+          <input
+            type="text"
+            size="6"
+            maxlength="6"
+            minlength="6"
+            placeholder="OTP"
+          />
+          <input type="button" value="verify" />
+        </div>
+        <br />
+        <div>
+          <label><b>Password</b> </label><br />
+          <input type="password" placeholder="Enter password" size="100" />
+        </div>
+        <br />
+        <div>
+          <label><b>Date of Birth </b> </label>
+          <input type="date" />
+        </div>
+        <br />
+        <div>
+          <label for="gender"><b>Select Gender :</b></label>
+
+          <input type="radio" name="gender" />
+          <label><b>Male</b></label>
+          <input type="radio" name="gender" />
+          <label><b>Female</b></label>
+          <input type="radio" name="gender" />
+          <label><b>Others</b></label>
+        </div>
+        <div>
+          <br />
+          <label><b>Known Languages : </b> </label>
+
+          <input type="checkbox" />
+          <label>Hindi</label>
+          <input type="checkbox" />
+          <label>English</label>
+          <input type="checkbox" />
+          <label>Marathi</label>
+          <input type="checkbox" />
+          <label>Tamil</label>
+          <input type="checkbox" />
+          <label>Others</label>
+        </div>
+        <br />
+        <div>
+          <label for="country"><b>Select Country :</b></label>
+          <input type="radio" name="country" />
+          <label><b>India</b></label>
+          <input type="radio" name="country" />
+          <label><b>Others</b></label>
+
+          <input type="text" list="datalist" placeholder="Your country name" />
+
+          <datalist id="datalist">
+            <option>Russia</option>
+            <option>China</option>
+            <option>Bangladesh</option>
+            <option>Srilanka</option>
+            <option>Japan</option>
+            <option>Afganistan</option>
+            <option>Canada</option>
+            <option>Australia</option>
+            <option>America</option>
+            <option>Nepal</option>
+          </datalist>
+        </div>
+        <br />
+        <div>
+          <label for="current role"><b>Select your current role : </b></label>
+          <select name="current role">
+            <option>Student</option>
+            <option>Govt. employ</option>
+            <option>Full time Job</option>
+            <option>Part time Job</option>
+            <option>Self Employed</option>
+            <option selected>Others</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <label><b>Write about your self :</b></label
+          ><br />
+          <textarea name="" id="" cols="100" rows="8"></textarea>
+        </div>
+        <br />
+        <input type="button" value="submit" id="submit" />
+        <input type="button" value=" Reset" />
+      </main>
+    </form>
+  </body>
+</html>
