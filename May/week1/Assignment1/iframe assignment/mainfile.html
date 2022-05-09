@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 3</title>
+    <style>
+      #menu div {
+          padding: 15px;
+          margin: 10px;
+          text-align: center;
+         background-color: brown;
+      }
+      a{
+          text-decoration: none;
+            color: white;
+      }
+      .container{
+          display: flex;
+      }
+      #menu{
+          flex: 1;
+      }
+      #iframe {
+          flex: 4;
+       
+      }
+      iframe{
+          width: 100%;
+          height: 100vh;
+      }
+    </style>
+  </head>
+
+  <body>
+   <div class="container">
+    <div id="menu">
+        
+        <div><a href="mobile.html" target="displaypanel">Mobile </a></div>
+        <div><a href="TV.html" target="displaypanel">Television</a></div>
+        <div><a href="electronics.html" target="displaypanel">Electronics items</a></div>
+         <div><a href="menclothing.html" target="displaypanel">Clothes</a></div>
+         <div><a href="https://www.amazon.in/" target="displaypanel">More</a></div>
+       
+    </div>
+
+   <div id="iframe">
+        <iframe src="mobile.html"  name="displaypanel"></iframe>
+      </div>
+
+   </div>
+  </body>
+</html>

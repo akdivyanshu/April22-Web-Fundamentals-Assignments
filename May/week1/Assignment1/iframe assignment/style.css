@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-items: center;
+    height: 100%;
+    background: linear-gradient(45deg, orange, white, green);
+    flex-direction: column;
+    text-align: center;
+}
+
+.section1{
+    flex: 1;
+}
+.section2{
+    flex: 1;
+}
+.section3{
+    flex: 1;
+}
+.section4{
+    flex: 1;
+}
+.section5{
+    flex: 1;
+}
